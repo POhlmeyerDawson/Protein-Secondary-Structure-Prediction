@@ -1,0 +1,49 @@
+# --- Python / build ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+.conda/
+
+# --- IDE / OS cruft ---
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Ray Tune / TensorBoard / logs ---
+ray_results/
+runs/
+logs/
+*.log
+
+# --- Checkpoints / weights / artifacts ---
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# --- Generated predictions/archives (keep code clean) ---
+prediction.csv
+predictions.csv
+prediction.tsv
+*.zip
+*.tar
+*.tar.gz
+
+# --- Caches (only if they appear in repo root) ---
+.cache/
+huggingface/
+.huggingface/
+
