@@ -1,6 +1,0 @@
-Validation Accuracy (Ensemble): 0.7001
-Validation Precision:            0.4877
-Validation Recall:               0.3595
-Validation F1:                   0.3512
-Weights path: checkpoints/final_model_fold_*.pth
-Config path:  checkpoints/best_model_config.json
