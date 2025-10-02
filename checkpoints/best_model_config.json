@@ -1,0 +1,15 @@
+{
+  "learning_rate": 0.0002,
+  "batch_size": 2,
+  "dropout_rate": 0.25,
+  "max_length": 1024,
+  "weight_decay": 0.01,
+  "patience": 5,
+  "num_epochs": 27,
+  "cnn_sizes": [
+    64,
+    48,
+    32,
+    16
+  ]
+}
